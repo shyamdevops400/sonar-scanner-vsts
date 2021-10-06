@@ -1,4 +1,5 @@
 import * as tl from "azure-pipelines-task-lib/task";
+import * as semver from "semver";
 import Endpoint, { EndpointType } from "../../../../../common/ts/sonarqube/Endpoint";
 import prepareTask from "../../../../../common/ts/prepare-task";
 
